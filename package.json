@@ -1,0 +1,29 @@
+{
+  "name": "trilogy-hw-week-10-employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlestietjen/Trilogy-HW-Week-10-Employee-Tracker.git"
+  },
+  "author": "charlestietjen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlestietjen/Trilogy-HW-Week-10-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/charlestietjen/Trilogy-HW-Week-10-Employee-Tracker#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
