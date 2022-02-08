@@ -144,7 +144,15 @@ Use a constructor class DB to hold all database related methods in their own mod
 - View the total utilized budget of a department—in other words, the combined salaries of all employees in that department.
 
 
-#### Add Department
+#### View Employees by Manager
 
-- Prompt input for new department name
-- call addDepartment with new name parameter to db
+
+
+Return all managers by id
+'SELECT DISTINCT manager_id FROM employee
+WHERE employee.manager_id IS NOT NULL;'
+
+Return employees first, last and role id by it's name
+'SELECT employee.first_name AS 'First Name', employee.last_name AS 'Last Name', role.name AS 'Role' FROM employee
+LEFT JOIN role ON employee.role_id = role.id
+WHERE employee.manager_id = 3'
