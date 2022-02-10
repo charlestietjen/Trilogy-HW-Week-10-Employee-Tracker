@@ -9,6 +9,8 @@
 
 -[Screenshot](#Screenshot)
 
+-[Video Demonstration](#video-demonstration)
+
 -[Installation](#Installation)
 
 -[Usage](#Usage)
@@ -26,7 +28,10 @@ Available for use under. [![License](https://img.shields.io/badge/License-MIT-bl
 ## Screenshot
 ![Project Screenshot](/img/project-ss.png?raw=true)
 
- 
+## Video Demonstration
+
+[![Youtube Link](https://img.youtube.com/vi/EcCXlgaISIM/default.jpg)](https://youtu.be/EcCXlgaISIM)
+
 ## Installation
 Employee Tracker uses inquirer, chalk and mysql2. Type npm i from the command line to install them and all related dependencies.
 
