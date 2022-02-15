@@ -39,6 +39,9 @@ Employee Tracker uses inquirer, chalk and mysql2. Type npm i from the command li
 ## Usage
 To start Employee Tracker type 'node index' from the root directory of the application.
 
+For demonstration purposes the database is seeded with example data on run, this is currently set up to execute every start so duplicates will be created on subsequent runs.
+Seeding can be disabled by commenting out "init = await this.connection.execute(seedDept); init = await this.connection.execute(seedRole); init = await this.connection.execute(seedEmployee);" at the bottom of DB.js.
+
   
 ## Contact
 Find me at [GitHub](https://github.com/charlestietjen)
